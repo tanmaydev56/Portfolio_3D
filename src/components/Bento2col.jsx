@@ -35,7 +35,7 @@ export function BentoGridSecondDemo() {
         description="Discover the beauty of thoughtful and functional design."
         header={
           <div className="flex flex-col justify-center items-center h-full overflow-hidden  ">
-           <img src="public/assets/grid2.png" alt="" />
+           <img src="/assets/grid2.png" alt="" />
           </div>
         }
         className="md:col-span-1 lg:h-[500px] h-[400px] lg:w-[550px] w-auto"
@@ -46,7 +46,7 @@ export function BentoGridSecondDemo() {
 
        header={
         <div className="flex flex-col justify-center items-center h-full overflow-hidden ">
-         <img src="public/assets/grid3.png" alt="" />
+         <img src="/assets/grid3.png" alt="" />
         </div>
        }
         className="md:col-span-1 lg:h-[400px] h-[400px]  lg:w-[800px] w-auto  lg:translate-y-[180px]"
@@ -56,7 +56,7 @@ export function BentoGridSecondDemo() {
 
        header={
         <div className="flex flex-col justify-center items-center h-full overflow-hidden ">
-         <img src="public/assets/grid4.png" alt="" />
+         <img src="/assets/grid4.png" alt="" />
          <div className="space-y-2">
          <p className="grid-subtext text-center">Contact me</p>
               <div className="copy-container" onClick={handleCopy}>

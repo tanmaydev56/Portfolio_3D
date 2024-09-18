@@ -65,7 +65,7 @@ export const navLinks = [
         'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
       href: 'https://www.valscotech.com/',
       texture: '/textures/project/project1.mp4',
-      logo: '/public/Company_Logo.png',
+      logo: '/Company_Logo.png',
       logoStyle: {
         backgroundColor: '#78d0ec',
         border: '0.2px solid #36201D',
