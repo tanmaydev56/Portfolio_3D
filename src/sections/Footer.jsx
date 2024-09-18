@@ -1,7 +1,7 @@
 
 import React from "react";
 import { AnimatedTooltip } from "../components/ui/animated-tooltip";
-import { AnimatedTooltipPreview } from "../components/tooltip";
+import { AnimatedTooltipPreview } from "../components/Tooltip.jsx";
 
 
 const Footer = () => {

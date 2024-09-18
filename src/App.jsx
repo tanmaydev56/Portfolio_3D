@@ -1,10 +1,6 @@
 
 import './App.css'
-import { BentoGridSecondDemo } from './components/Bento2col'
-import { GlobeDemo } from './components/Globee'
-import ReactLogo from './components/Reactlogo'
-import { AnimatedTooltipPreview } from './components/tooltip.jsx'
-import { AnimatedTooltip } from './components/ui/animated-tooltip'
+
 import About from './sections/About'
 import Contact from './sections/Contact'
 import Footer from './sections/Footer'
