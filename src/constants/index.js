@@ -64,7 +64,7 @@ export const navLinks = [
       subdesc:
         'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
       href: 'https://www.valscotech.com/',
-      texture: '/textures/project/project1.mp4',
+      texture: '/textures/project/valsco.mp4',
       logo: '/Company_Logo.png',
       logoStyle: {
         backgroundColor: '#78d0ec',
@@ -101,7 +101,7 @@ export const navLinks = [
       subdesc:
         'At Livio, we blend modern style with timeless elegance, offering thoughtfully crafted furniture designed to enhance your living spaces.With a focus on sustainability, every piece balances comfort and sophistication for a truly elevated home experience.',
       href: 'https://livio-website-contribution-emijpfq85-tanmaydev56s-projects.vercel.app/',
-      texture: '/textures/project/project2.mp4',
+      texture: '/textures/project/LIVIO.mp4',
       logo: '/assets/logo-livio.png',
       logoStyle: {
         backgroundColor: '#13202F',
@@ -134,7 +134,7 @@ export const navLinks = [
       subdesc:
         ' Experience a visually dynamic and immersive site with the iPhone 15 Pro recreation, combining advanced GSAP animations and Three.js 3D effects for a stunning and responsive user experience.',
       href: 'https://iphone-clone-two.vercel.app/',
-      texture: '/textures/project/project3.mp4',
+      texture: '/textures/project/IPHONE.mp4',
       logo: '/assets/apple.svg',
       logoStyle: {
         backgroundColor: '#000',
@@ -172,7 +172,7 @@ export const navLinks = [
       subdesc:
        ' Utilizing Next.js, Framer, React, and GSAP, this project integrates seamless navigation, real-time performance, and dynamic animations to deliver a sophisticated and engaging user experience.',
       href: 'https://framer-motion-mihcpi2dc-tanmaydev56s-projects.vercel.app/  ',
-      texture: '/textures/project/project4.mp4',
+      texture: '/textures/project/FRAMER.mp4',
       logo: '/assets/framer.png',
       logoStyle: {
         backgroundColor: '#0E1F38',
@@ -208,7 +208,7 @@ export const navLinks = [
       desc: 'A 3-d Portfolio integrated with 3js and 3js drei',
       subdesc:'npm i --legacy-peer-deps @react-three/fiber @react-three/drei math react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom three js full downloads',
       href: 'https://github.com/tanmaydev56/3D_portfolio1',
-      texture: '/textures/project/project5.mp4',
+      texture: '/textures/project/3DPORTFOLIO.mp4',
       logo: '/assets/logo-tanmay.svg',
       logoStyle: {
         backgroundColor: '#1C1A43',
