@@ -13,6 +13,7 @@ import Cube from '../components/Cube'
 import Rings from '../components/Ring'
 import Herocamera from '../components/Herocamera'
 import Button from '../components/Button'
+import StarsCanvas from '../components/Stars'
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 768 })
   const isSmall = useMediaQuery({ maxWidth: 440 })
@@ -21,6 +22,8 @@ const Hero = () => {
   const sizes = calculateSizes(isSmall, isMobile, isTablet)
 
   return (
+    <>
+    
     <section className='lg:h-screen h-[800px] lg:mt-0 mt-20 flex  flex-col w-full relative' id='home'>
       <div className='w-full mx-auto flex flex-col lg:mt-24 sm:px-10 px-5 gap-3 '>
         <p className='sm:text-3xl text-2xl font-medium text-white text-center font-generalsans'>
@@ -64,6 +67,7 @@ const Hero = () => {
         </a>
       </div>
     </section>
+    </>
   )
 }
 

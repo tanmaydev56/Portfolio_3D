@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
+import StarsCanvas from "./Stars";
 
 const World = dynamic(() => import("../components/ui/globe").then((m) => m.World), {
   ssr: false,
@@ -395,12 +396,19 @@ export function GlobeDemo() {
   ];
 
   return (
+    <>
+
     <div className="flex flex-row items-center justify-center py-20 h-screen md:h-auto dark:bg-black bg-white relative w-full">
+      
       <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] px-4">
         <div className="absolute w-full -bottom-20 md:h-full z-10 lg:p-[90px] p-0" style={{ transform: 'translateY(-75px)' }}>
+        <StarsCanvas/>
           <World data={sampleArcs} globeConfig={globeConfig} />
+          
         </div>
       </div>
     </div>
+   
+    </>
   );
 }

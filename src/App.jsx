@@ -12,26 +12,23 @@ import Testimonials from './sections/Testimonials'
 function App() {
  
 
-  return (
-   <main className='max-w-7xl mx-auto'>
+  return (<>
    
-    <Navbar/>
+   <main className='max-w-7xl mx-auto'>
+ 
+    <Navbar/>  
    <Hero/>
    <About/>
     <Projects/> 
     <Testimonials/>
     <Contact/>
     <Footer/> 
-    {/* <GlobeDemo/> */}
     
    
-
-   
-    
-
-   
-   {/* <BentoGridSecondDemo/> */}
    </main> 
+   </>
+
+   
    
    
   )
