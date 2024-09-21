@@ -1,10 +1,5 @@
 import { BentoGrid, BentoGridItem } from "./ui/bento";
-import {
-  IconClipboardCopy,
-  IconFileBroken,
-  IconSignature,
-  IconTableColumn,
-} from "@tabler/icons-react";
+import grid2 from "../../public/assets/grid2.jpg"
 import { GlobeDemo } from "./Globee";
 import { useState } from "react";
 
@@ -31,11 +26,11 @@ export function BentoGridSecondDemo() {
         className="md:col-span-2 h-[500px]"
       />
       <BentoGridItem
-        title="The Art of Design"
-        description="Discover the beauty of thoughtful and functional design."
+        title="Tech Stack"
+        description="I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable applications"
         header={
           <div className="flex flex-col justify-center items-center h-full overflow-hidden  ">
-           <img src="/assets/grid2.png" alt="" />
+           <img src={grid2} alt="" />
           </div>
         }
         className="md:col-span-1 lg:h-[500px] h-[400px] lg:w-[550px] w-auto"
@@ -61,7 +56,9 @@ export function BentoGridSecondDemo() {
          <p className="grid-subtext text-center">Contact me</p>
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                <p className="lg:text-[15px] md:text-xl font-medium text-gray_gradient text-white">tanmaysharma763@gmail.com</p>
+                <a href="mailto:tanmaysharma763@gmail.com">
+                <p className="lg:text-[15px] md:text-xl font-medium text-gray_gradient text-white ">tanmaysharma763@gmail.com</p>
+                </a>
          </div>
 
          </div>
