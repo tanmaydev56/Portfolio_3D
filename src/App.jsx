@@ -7,7 +7,7 @@ import Footer from './sections/Footer'
 import Hero from './sections/Hero'
 import Navbar from './sections/Navbar.jsx'
 import Projects from './sections/Projects'
-import Testimonials from './sections/Testimonials'
+
 
 function App() {
  
@@ -19,10 +19,12 @@ function App() {
     <Navbar/>  
    <Hero/>
    <About/>
+   
     <Projects/> 
-    <Testimonials/>
+   
     <Contact/>
     <Footer/> 
+    
     
    
    </main> 

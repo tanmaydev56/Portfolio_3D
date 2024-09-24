@@ -48,7 +48,7 @@ const Contact = () => {
      
     };
   return (
-    <section className='c-space lg:translate-y-[-70px] translate-y-[1700px]' id='contact'>
+    <section className='c-space lg:translate-y-[+320px] translate-y-[1780px]' id='contact'>
         <div className='relative min-h-screen flex items-center justify-center flex-col'>
             <img src="/assets/terminal.png" alt="" className='absolute inset-0 lg:min-h-screen h-[900px] lg:w-full sm:w-[500px]  '/>
             <div className={`max-w-xl relative z-10 sm:px-10 px-5 mt-[100px] `}>

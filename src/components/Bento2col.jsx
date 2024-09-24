@@ -1,5 +1,5 @@
 import { BentoGrid, BentoGridItem } from "./ui/bento";
-import grid2 from "../../public/assets/grid2.jpg"
+import grid2 from "../assets/TechStack.jpeg"
 import { GlobeDemo } from "./Globee";
 import { useState } from "react";
 

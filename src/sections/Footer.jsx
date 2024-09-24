@@ -6,7 +6,7 @@ import { AnimatedTooltipPreview } from "../components/Tooltip.jsx";
 
 const Footer = () => {
     return (
-      <footer className="c-space pt-7 pb-3 border-t border-black-300 flex justify-between items-center flex-wrap gap-5 lg:translate-y-[20px] translate-y-[1800px]">
+      <footer className="c-space pt-7 pb-3 border-t border-black-300 flex justify-between items-center flex-wrap gap-5 lg:translate-y-[450px] translate-y-[1880px] ">
         <div className="text-white-500 flex gap-2">
           <p>Terms & Conditions</p>
           <p>|</p>

@@ -1,3 +1,17 @@
+import html from "../../public/assets/tech/html.png"
+import css from "../../public/assets/tech/css.png"
+import javascript from "../../public/assets/tech/javascript.png"
+import typescript from "../../public/assets/tech/typescript.png"
+import reactjs from "../../public/assets/tech/reactjs.png"
+import redux from "../../public/assets/tech/redux.png"
+import tailwind from "../../public/assets/tech/tailwind.png"
+import nodejs from "../../public/assets/tech/nodejs.png"
+import mongodb from "../../public/assets/tech/mongodb.png"
+import git from "../../public/assets/tech/git.png"
+import figma from "../../public/assets/tech/figma.png"
+import docker from "../../public/assets/tech/docker.png"
+import threejs from "../../public/assets/tech/threejs.svg"
+
 export const navLinks = [
     {
       id: 1,
@@ -277,3 +291,59 @@ export const navLinks = [
       animation: 'salute',
     },
   ];
+   export const technologies = [
+    {
+      name: "HTML 5",
+      icon: html,
+    },
+    {
+      name: "CSS 3",
+      icon: css,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "TypeScript",
+      icon: typescript,
+    },
+    {
+      name: "React JS",
+      icon: reactjs,
+    },
+    {
+      name: "Redux Toolkit",
+      icon: redux,
+    },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
+      name: "Node JS",
+      icon: nodejs,
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
+    {
+      name: "Three JS",
+      icon: threejs,
+    },
+    {
+      name: "git",
+      icon: git,
+    },
+    {
+      name: "figma",
+      icon: figma,
+    },
+    {
+      name: "docker",
+      icon: docker,
+    },
+  ];
+  
+ 

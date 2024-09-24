@@ -13,7 +13,6 @@ import Cube from '../components/Cube'
 import Rings from '../components/Ring'
 import Herocamera from '../components/Herocamera'
 import Button from '../components/Button'
-import StarsCanvas from '../components/Stars'
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 768 })
   const isSmall = useMediaQuery({ maxWidth: 440 })
@@ -22,8 +21,6 @@ const Hero = () => {
   const sizes = calculateSizes(isSmall, isMobile, isTablet)
 
   return (
-    <>
-    
     <section className='lg:h-screen h-[800px] lg:mt-0 mt-20 flex  flex-col w-full relative' id='home'>
       <div className='w-full mx-auto flex flex-col lg:mt-24 sm:px-10 px-5 gap-3 '>
         <p className='sm:text-3xl text-2xl font-medium text-white text-center font-generalsans'>
@@ -33,7 +30,7 @@ const Hero = () => {
           </span>
           , a web developer building modern, responsive websites.
         </p>
-        <p className='hero_tag text-gray_gradient'>
+        <p className='text-center xl:text-[45px] md:text-5xl sm:text-4xl text-3xl font-generalsans font-black !leading-normal text-gray_gradient'>
           Crafting modern digital solutions for businesses.
         </p>
       </div>
@@ -67,7 +64,6 @@ const Hero = () => {
         </a>
       </div>
     </section>
-    </>
   )
 }
 
